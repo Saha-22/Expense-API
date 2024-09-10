@@ -1,0 +1,16 @@
+To run the project you need to install laravel using composer. After successfully installing composer and laravel, write this commands in terminal. (PHP 8.0 or later is required. Install it if necessary.)
+
+composer create-project laravel/laravel Expense-Tracker-with-Currency-Conversion-Backend-Laravel
+
+cd Expense-Tracker-with-Currency-Conversion-Backend-Laravel
+
+composer install
+
+php artisan key:generate
+
+php artisan migrate
+
+php artisan serve
+
+After that Open your web browser and go to http://localhost:8000 (or the specified port in .env file).
+
